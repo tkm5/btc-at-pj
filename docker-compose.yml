@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  trade:
+    build: .
+    image: 'btc-env'
+    container_name: 'btc-env'
+    tty: true
+    volumes:
+      - './docker/work:/work'
