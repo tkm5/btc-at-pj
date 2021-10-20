@@ -1,0 +1,11 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+.idea/
+__pycache__/
+
+# secret codes
+settings_secret.py
+
+# other files
+.DS_Store
